@@ -1,15 +1,20 @@
+
+*{
+    font-family: Lato;
+}
+
 .banner {
     background-color: darksalmon;
     padding: 30px 30px 30px 30px;
     display: flex;
 }
+
 .title {
     color: #272727;
-font-family: Lato;
 font-size: 60px;
 font-weight: 600;
-
 }
+
 .banner .profile-picture {
     width: 555px;
     height: 550px;
@@ -20,4 +25,50 @@ font-weight: 600;
     height: 30px;
     border-radius: 5px;
 background: #E55473;
+}
+.body-title {
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+
+}
+.body-discription {
+    text-align: center;
+}
+
+.main {
+ margin: 150px;
+}
+.flowers {
+    display: flex;
+}
+.tulip-1 {
+    background: url(<path-to-image>), rgb(245, 200, 200) 50% / cover no-repeat;
+Assets
+
+    width: 310px;
+height: 400px;
+flex-shrink: 0;
+margin: 10px;
+}
+.cap-1 {
+    text-align: center;
+    text-decoration: underline;
+}
+.rose-1 {
+    background: url(<path-to-image>), rgb(187, 198, 247) 50% / cover no-repeat;
+Assets
+width: 370px;
+height: 400px;
+flex-shrink: 0;
+margin: 10px;
+}
+.tulip-yellow {
+    background: url(<path-to-image>), rgb(185, 222, 247) 50% / cover no-repeat;
+Assets
+width: 314px;
+height: 400px;
+flex-shrink: 0;
+margin: 10px;
 }
