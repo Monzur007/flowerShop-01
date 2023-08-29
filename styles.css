@@ -38,15 +38,14 @@ font-weight: 800;
 }
 
 .main {
- margin: 150px;
+ margin: 140px;
 }
 .flowers {
     display: flex;
 }
 .tulip-1 {
-    background: url(<path-to-image>), rgb(245, 200, 200) 50% / cover no-repeat;
-Assets
-
+    background:  rgb(245, 200, 200) 50% / cover no-repeat;
+    border-radius: 25px;
     width: 310px;
 height: 400px;
 flex-shrink: 0;
@@ -57,18 +56,84 @@ margin: 10px;
     text-decoration: underline;
 }
 .rose-1 {
-    background: url(<path-to-image>), rgb(187, 198, 247) 50% / cover no-repeat;
-Assets
+    background: rgb(187, 198, 247) 50% / cover no-repeat;
+    border-radius: 25px;
 width: 370px;
 height: 400px;
 flex-shrink: 0;
 margin: 10px;
 }
 .tulip-yellow {
-    background: url(<path-to-image>), rgb(185, 222, 247) 50% / cover no-repeat;
-Assets
+    background: rgb(185, 222, 247) 50% / cover no-repeat;
+    border-radius: 25px;
 width: 314px;
 height: 400px;
 flex-shrink: 0;
 margin: 10px;
+}
+.body-2 {
+    background-color: darksalmon;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+}
+.title-2 {
+    color: #272727;
+font-size: 30px;
+font-weight: 200;
+text-align: center;
+padding: 20px;
+}
+.btn-primary-2 {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+background: #E55473;
+text-align: center;
+}
+.profile-picture-2 {
+    width: 330px;
+    height: 400px;
+    flex-shrink: 0;
+}
+.body-2 {
+    text-align:center
+}
+.span-1 {
+    color: rgb(243, 45, 45);
+}
+.flowers-2 {
+    display: flex;
+    width: 70%;
+}
+.main-2{
+    margin: 140px;
+}
+.body-title-2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.body-discription-2 {
+    text-align: center;
+}
+.flower-02 {
+    margin: 5px;
+    width: 250px;
+    height: 400px;
+}
+.rose-5{
+    margin: 5px;
+    width: 250px;
+    height: 400px;
+}
+.tulip-6{
+    margin: 5px;
+    width: 250px;
+    height: 400px;
+}
+.tulip-7{
+    margin: 5px;
+    width: 250px;
+    height: 400px;
 }
